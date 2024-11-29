@@ -9,7 +9,7 @@ angelaImg.addEventListener("click", () => {
 		var initialOP = 1;
 		var timer = setInterval(function() {
 			if(initialOP <= 0){
-				console.log("YOE");
+				console.log("YOEE");
 				angelaImg.style.display = 'none';
 				clearInterval(timer);
 				//fade new meme in :D
