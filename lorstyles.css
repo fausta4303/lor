@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+}
+
+div {
+}
+
+#Angela, #wheelChairAngela {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	width: 50%;
+	margin-left: 25%;
+	
+	/*
+	transition-property: opacity, display;
+	transition-duration: 1s;
+	transition-behavior: allow-discrete;*/
+}
+
+#wheelChairAngela {
+	opacity: 0;
+	display: none;
+}
+
+#Angela:active {
+	/*
+	opacity: 0;
+	display: none;
+	animation: fadeout 1s;
+	animation-fill-mode: forward;
+	*/
+}
+
+/*
+#wheelChairAngela:active {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	width: 50%;
+	margin-left: 25%;
+}
+*/
+/*
+@keyframes fadeout {
+	from{
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		display: none;
+	}
+}
+*/
