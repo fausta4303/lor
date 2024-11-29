@@ -12,6 +12,19 @@ angelaImg.addEventListener("click", () => {
 				console.log("YOE");
 				angelaImg.style.display = 'none';
 				clearInterval(timer);
+				//fade new meme in :D
+				setTimeout(function(){
+					var wheelChairOP = 0;
+					wheelchairImg.style.display = 'block';
+					var timer2 = setInterval(function() {
+						if(wheelChairOP >= 1){
+							console.log("DONE");
+							clearInterval(timer2);
+						}
+						wheelchairImg.style.opacity = wheelChairOP;
+						wheelChairOP += 0.01;
+					});
+				}, 1000);
 			}
 			angelaImg.style.opacity = initialOP;
 			initialOP -= 0.01;
@@ -19,18 +32,7 @@ angelaImg.addEventListener("click", () => {
 
 
 		//fade the meme in :D
-		setTimeout(function(){
-			var wheelChairOP = 0;
-			wheelchairImg.style.display = 'block';
-			var timer2 = setInterval(function() {
-				if(wheelChairOP >= 1){
-					console.log("DONE");
-					clearInterval(timer2);
-				}
-				wheelchairImg.style.opacity = wheelChairOP;
-				wheelChairOP += 0.01;
-			});
-		}, 1000);
+		
 		//angelaImg
 		
 		
