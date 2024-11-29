@@ -19,6 +19,10 @@ div {
 	transition-behavior: allow-discrete;*/
 }
 
+#Angela {
+	cursor: pointer;
+}
+
 #wheelChairAngela {
 	opacity: 0;
 	display: none;
